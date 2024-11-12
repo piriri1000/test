@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main">
+        <h2>여행을 간다면?</h2>
+        <button onclick="ViewPlace()">가고싶은 곳</button>
+        <button onclick="EatFood()">먹고싶은 것</button>
+        <hr>
+        <div id = "main-content">
+            <p>
+                저는<span class="place">서울</span>여행을 가고싶습니다.
+                <span class="place">서울</span>은 옛 조선의 수도답게 경복궁과 숭례문등 문화재들이 아름다운 곳입니다!
+                특히 <span class="food">지우갈비 - 명동점</span>을 추천합니다! 이곳 음식인 왕갈비탕, 소고기국밥, 차돌된장찌개도 정말 가성비 좋으면서 맛도 좋습니다.
+                <span class = "place">서울</span>의 맛집 입니다!
+            </p>
+            <img class= "img" src="Seoul.jpg" alt="img" width="200px" onclick="this.src = '바비큐.jpg'" ondblclick="this.src = 'Seoul.jpg'">
+        </div>
+    </div>
+    <script src="test.js"></script>
+</body>
+</html>
